@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Let's play Rock✊ Paper✋ Scissor✌</h1>
+    </header>
+    <div class="scores">
+      <table class="score">
+        <thead>
+          <td height="50">User Score</td>
+          <td height="50"></td>
+          <td height="50">Computer Score</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user-score" height="50">0</td>
+            <td height="50">:</td>
+            <td class="comp-score" height="50">0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="result">Result</div>
+
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="images/rock.png" alt="rock" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="images/paper.png" alt="paper" />
+      </div>
+      <div class="choice" id="scissor">
+        <img src="images/scissor.png" alt="scissor" />
+      </div>
+    </div>
+    <p id="start">Choose!</p>
+    <div class="scoreboard">
+      <p class="no-round">No round completed yet!</p>
+      <table class="score-table">
+        <thead>
+          <td height="50">Rounds</td>
+          <td>Result</td>
+        </thead>
+        <tbody class="table-body"></tbody>
+      </table>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
